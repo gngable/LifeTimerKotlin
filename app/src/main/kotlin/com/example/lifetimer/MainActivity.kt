@@ -68,6 +68,7 @@ class MainActivity : ComponentActivity() {
 fun LifeTimerApp(vm: MainViewModel = viewModel()) {
     val timeState by vm.timeState.collectAsStateWithLifecycle()
     val selectedDateTime by vm.selectedDateTime.collectAsStateWithLifecycle()
+    val timeRows = buildTimeRows(timeState)
 
     Scaffold(
         topBar = {
@@ -103,7 +104,7 @@ fun LifeTimerApp(vm: MainViewModel = viewModel()) {
             item {
                 DirectionBadge(isPast = timeState.isPast)
             }
-            items(buildTimeRows(timeState)) { row ->
+            items(timeRows) { row ->
                 TimeUnitCard(row = row)
             }
         }
