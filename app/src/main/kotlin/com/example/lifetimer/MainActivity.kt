@@ -80,6 +80,14 @@ fun LifeTimerApp(vm: MainViewModel = viewModel()) {
                         fontWeight = FontWeight.Bold
                     )
                 },
+                actions = {
+                    Text(
+                        text = if (timeState.seconds % 2 == 0L) "Tick" else "Tock",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.onPrimaryContainer,
+                        modifier = Modifier.padding(end = 16.dp)
+                    )
+                },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
                     titleContentColor = MaterialTheme.colorScheme.onPrimaryContainer
