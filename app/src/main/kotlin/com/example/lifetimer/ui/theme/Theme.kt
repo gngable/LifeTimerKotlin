@@ -1,4 +1,4 @@
-package com.example.lifetimer.ui.theme
+package com.mercangel.lifetimer.ui.theme
 
 import android.app.Activity
 import android.os.Build

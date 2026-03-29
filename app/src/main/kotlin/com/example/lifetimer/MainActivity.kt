@@ -1,4 +1,4 @@
-package com.mercangel.LifeTimer
+package com.mercangel.lifetimer
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
@@ -43,7 +43,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.mercangel.LifeTimer.ui.theme.LifeTimerTheme
+import com.mercangel.lifetimer.ui.theme.LifeTimerTheme
 import java.text.NumberFormat
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter

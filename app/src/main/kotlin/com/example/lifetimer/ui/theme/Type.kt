@@ -1,4 +1,4 @@
-package com.mercangel.LifeTimer.ui.theme
+package com.mercangel.lifetimer.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.mercangel.LifeTimer
+package com.mercangel.lifetimer
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
