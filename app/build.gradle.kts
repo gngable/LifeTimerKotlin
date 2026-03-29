@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lifetimer"
+    namespace = "com.mercangel.LifeTimer"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lifetimer"
+        applicationId = "com.mercangel.LifeTimer"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
